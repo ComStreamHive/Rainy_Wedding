@@ -1,7 +1,7 @@
 import React from 'react';
-import img1 from '../assets/img1.jpg'
-import img2 from '../assets/img2.jpg'
-import img3 from '../assets/img3.jpg'
+import img1 from '../assets/img1.jpg';
+import img2 from '../assets/img2.jpg';
+import img3 from '../assets/img3.jpg';
 
 const AnnouncementSection = () => {
   return (
@@ -11,14 +11,14 @@ const AnnouncementSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-16">
           {/* Left Column - Main Announcement */}
           <div>
-            <h2 className="text-4xl md:text-5xl lg:text-6xl font-serif text-gray-900 leading-tight">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-serif text-gray-900 leading-tight">
               We are thrilled to announce that we are tying the knot!
             </h2>
           </div>
           
           {/* Right Column - Description */}
           <div className="flex items-center">
-            <p className="text-lg text-gray-700 leading-relaxed">
+            <p className="text-base sm:text-lg md:text-xl text-gray-700 leading-relaxed">
               With the blessings of our families, we, Reainy & Jinto, are 
               delighted to begin our journey together. Join us as we celebrate 
               the sacred bond of marriage and the start of a beautiful new 
@@ -28,7 +28,7 @@ const AnnouncementSection = () => {
         </div>
         
         {/* Three Photo Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
           {/* Photo 1 */}
           <div className="aspect-square bg-gray-200 rounded-lg overflow-hidden">
             <img 

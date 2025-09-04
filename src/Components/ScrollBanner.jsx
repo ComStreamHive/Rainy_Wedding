@@ -36,7 +36,7 @@ const ScrollingBanner = () => {
         }
         
         .animate-scroll {
-          animation: scroll 20s linear infinite;
+          animation: scroll 8s linear infinite;
         }
         
         

@@ -10,7 +10,10 @@ const HeroSection = () => {
          <img 
           src={Hero} 
           alt="Wedding background" 
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover object-center sm:object-cover"
+          style={{
+            objectPosition: 'center center'
+          }}
         />
         
         
@@ -19,15 +22,15 @@ const HeroSection = () => {
       </div>
       
       {/* Content */}
-      <div className="relative z-10 flex items-start pt-32 md:pt-40 h-full">
-        <div className="pl-6 md:pl-12 lg:pl-16">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif text-white mb-2 leading-tight">
+      <div className="relative z-10 flex items-start h-full" style={{ paddingTop: 'max(80px, 15vh)' }}>
+        <div className="px-4 sm:px-6 md:pl-12 lg:pl-16 md:pr-6 w-full">
+          <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-serif text-white mb-1 sm:mb-2 leading-tight max-w-full">
             The Grand Wedding Of
           </h1>
-          <h2 className="text-5xl md:text-6xl lg:text-7xl font-serif text-white mb-6 leading-tight">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-serif text-white mb-4 sm:mb-6 leading-tight max-w-full">
             Reainy & Jinto
           </h2>
-          <p className="text-xl md:text-2xl text-white font-light">
+          <p className="text-lg sm:text-xl md:text-2xl text-white font-light">
             14 Sept, 2025 Sunday
           </p>
         </div>
