@@ -31,8 +31,8 @@ const WeddingEvents = () => {
             <div className="flex-1 mb-6">
               <p className="text-red-500 font-semibold text-sm mb-3">10 Sept, 2025 04:00 PM</p>
               <p className="text-gray-700 text-sm leading-relaxed">
-                Martha marium church,<br />
-                Cheppanamra
+                Martha mariam church,<br />
+                Cheppumpara
               </p>
             </div>
             
@@ -72,8 +72,15 @@ const WeddingEvents = () => {
               </p>
             </div>
             
-            {/* Empty space for alignment */}
-            <div className="h-10"></div>
+             {/* Location Button */}
+            <a
+              href="https://www.google.com/maps?q=9.6297411,76.6242894"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-red-500 text-white px-6 py-4 sm:py-3 md:py-2 lg:py-2 xl:py-2 rounded-full text-xs font-bold tracking-wider hover:bg-red-600 transition-colors"
+            >
+                LOCATION
+            </a>
           </div>
 
           {/* Wedding Card */}

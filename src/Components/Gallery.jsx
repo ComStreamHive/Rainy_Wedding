@@ -1,12 +1,12 @@
 import React from 'react';
 
 // Local images (replace with your actual file paths)
-import image1 from '../assets/1.svg';
-import image2 from '../assets/2.svg';
-import image3 from '../assets/3.svg';
-import image4 from '../assets/4.svg';
-import image5 from '../assets/5.svg';
-import image6 from '../assets/6.svg';
+import image1 from '../assets/1.webp';
+import image2 from '../assets/2.webp';
+import image3 from '../assets/3.webp';
+import image4 from '../assets/4.webp';
+import image5 from '../assets/5.webp';
+import image6 from '../assets/6.webp';
 
 
 const Gallery = () => {

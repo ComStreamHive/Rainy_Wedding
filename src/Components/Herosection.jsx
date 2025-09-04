@@ -1,5 +1,5 @@
 import React from 'react';
-import Hero from '../assets/hero.jpg';
+import Hero from '../assets/hero.webp';
 
 const HeroSection = () => {
   return (
@@ -17,7 +17,7 @@ const HeroSection = () => {
         />
         
         {/* Overlay for better text readability */}
-        <div className="absolute inset-0 bg-black bg-opacity-30"></div>
+        <div className="absolute inset-0 bg-black bg-opacity-10"></div>
       </div>
       
       {/* Content */}

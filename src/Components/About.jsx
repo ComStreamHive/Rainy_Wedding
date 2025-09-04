@@ -1,10 +1,10 @@
 import React from 'react';
-import bride from '../assets/bride.jpg';
-import groom from '../assets/groom.jpg';
-import bride1 from '../assets/bride1.jpg';
-import bride2 from '../assets/bride2.jpg';
-import groom1 from '../assets/groom1.jpg';
-import groom2 from '../assets/groom2.jpg';
+import bride from '../assets/bride.webp';
+import groom from '../assets/groom.webp';
+import bride1 from '../assets/bride1.webp';
+import bride2 from '../assets/bride2.webp';
+import groom1 from '../assets/groom1.webp';
+import groom2 from '../assets/groom2.webp';
 
 const AboutSection = () => {
   return (
