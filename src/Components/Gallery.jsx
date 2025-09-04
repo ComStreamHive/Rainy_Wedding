@@ -17,18 +17,18 @@ const Gallery = () => {
     <div className="py-8 px-4 bg-gray-100">
       <div className="max-w-6xl mx-auto">
         {/* Gallery Title */}
-        <h2 className="text-3xl text-center font-semibold text-gray-800 mb-6">
+        <h2 className="text-3xl text-center font-semibold text-gray-800 mb-6" style={{ fontFamily: 'Playfair Display, serif' }}>
           Photo Gallery
         </h2>
 
         {/* Gallery Grid */}
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-7 gap-3">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-7 gap-3 ">
           {images.map((src, index) => (
             <div key={index} className="relative w-full">
               <img
                 src={src}
                 alt={`Gallery Image ${index + 1}`}
-                className="w-full h-48 object-cover rounded-lg shadow-lg"
+                className="w-full h-48 object-cover shadow-lg"
               />
             </div>
           ))}

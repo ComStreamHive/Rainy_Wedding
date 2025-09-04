@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Menu, X } from "lucide-react"; // simple icons for hamburger
+import { Link } from "react-scroll"; // import Link from react-scroll
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -8,7 +9,7 @@ const Navbar = () => {
     <nav className="bg-gray-50 px-6 py-4 shadow-sm">
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         {/* Logo */}
-        <div className="text-red-500 text-2xl font-serif font-bold">
+        <div className="text-red-500 text-2xl font-serif font-bold" style={{ fontFamily: 'Playfair Display, serif' }}>
           R&J
         </div>
 
@@ -22,60 +23,60 @@ const Navbar = () => {
 
         {/* Navigation Links (desktop) */}
         <div className="hidden md:flex items-center space-x-8">
-          <a
-            href="#"
+          <Link
+            to="home" // Scroll to section with id 'home'
+            smooth={true}
+            duration={500}
             className="text-gray-700 hover:text-gray-900 transition-colors duration-200"
           >
             Home
-          </a>
-          <a
-            href="#"
+          </Link>
+          <Link
+            to="our-story" // Scroll to section with id 'our-story'
+            smooth={true}
+            duration={500}
             className="text-gray-700 hover:text-gray-900 transition-colors duration-200"
           >
             Our Story
-          </a>
-          <a
-            href="#"
+          </Link>
+          <Link
+            to="itinerary" // Scroll to section with id 'itinerary'
+            smooth={true}
+            duration={500}
             className="text-gray-700 hover:text-gray-900 transition-colors duration-200"
           >
             Itinerary
-          </a>
-          <a
-            href="#"
-            className="bg-red-500 text-white px-6 py-2 rounded hover:bg-red-600 transition-colors duration-200"
-          >
-            LOCATION
-          </a>
+          </Link>
         </div>
       </div>
 
       {/* Mobile Menu */}
       {isOpen && (
         <div className="md:hidden mt-4 space-y-4">
-          <a
-            href="#"
+          <Link
+            to="home"
+            smooth={true}
+            duration={500}
             className="block text-gray-700 hover:text-gray-900 transition-colors duration-200"
           >
             Home
-          </a>
-          <a
-            href="#"
+          </Link>
+          <Link
+            to="our-story"
+            smooth={true}
+            duration={500}
             className="block text-gray-700 hover:text-gray-900 transition-colors duration-200"
           >
             Our Story
-          </a>
-          <a
-            href="#"
+          </Link>
+          <Link
+            to="itinerary"
+            smooth={true}
+            duration={500}
             className="block text-gray-700 hover:text-gray-900 transition-colors duration-200"
           >
             Itinerary
-          </a>
-          <a
-            href="#"
-            className="block bg-red-500 text-white px-6 py-2 rounded hover:bg-red-600 transition-colors duration-200 text-center"
-          >
-            LOCATION
-          </a>
+          </Link>
         </div>
       )}
     </nav>

@@ -5,16 +5,16 @@ import story3 from '../assets/story3.jpg';
 
 const OurStory = () => {
   return (
-    <div className="w-full py-16 px-4" style={{ backgroundColor: '#F5E6E8' }}>
+    <div id="our-story" className="w-full py-16 px-4" style={{ backgroundColor: '#F5E6E8' }}>
       <div className="max-w-6xl mx-auto">
         {/* Header Section with Hearts */}
         <div className="text-center mb-12">
           <div className="flex items-center justify-center gap-4 mb-2">
             <span className="text-red-500 text-2xl">❤</span>
-            <h1 className="text-4xl lg:text-5xl font-serif text-gray-800">Our Story</h1>
+            <h1 className="text-4xl lg:text-5xl font-serif text-gray-800" style={{ fontFamily: 'Playfair Display, serif' }}>Our Story</h1>
             <span className="text-red-500 text-2xl">❤</span>
           </div>
-          <h2 className="text-3xl lg:text-4xl font-serif text-black">Reainy & Jinto</h2>
+          <h2 className="text-3xl lg:text-4xl font-serif text-black" style={{ fontFamily: 'Playfair Display, serif' }}>Reainy & Jinto</h2>
         </div>
         
         {/* Three Tall Images */}
@@ -24,7 +24,7 @@ const OurStory = () => {
             <img
               src={story1}
               alt="Our Story - Chapter 1"
-              className="w-full h-[450px] object-cover rounded-lg"
+              className="w-full h-[450px] object-cover "
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent rounded-lg"></div>
           </div>
@@ -34,7 +34,7 @@ const OurStory = () => {
             <img
               src={story2}
               alt="Our Story - Chapter 2"
-              className="w-full h-[550px] object-cover rounded-lg"  // Taller middle image with no shadow
+              className="w-full h-[550px] object-cover "  // Taller middle image with no shadow
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent rounded-lg"></div>
           </div>
@@ -44,7 +44,7 @@ const OurStory = () => {
             <img
               src={story3}
               alt="Our Story - Chapter 3"
-              className="w-full h-[450px] object-cover rounded-lg"  // Same height as Chapter 1
+              className="w-full h-[450px] object-cover "  // Same height as Chapter 1
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent rounded-lg"></div>
           </div>
@@ -52,10 +52,10 @@ const OurStory = () => {
         
         {/* Story Text Section */}
         <div className="text-center max-w-4xl mx-auto">
-          <h3 className="text-3xl lg:text-4xl font-serif text-gray-800 mb-6">
+          <h3 className="text-3xl lg:text-4xl font-serif text-gray-800 mb-6" style={{ fontFamily: 'Playfair Display, serif' }}>
             Story to tell for the rest of the world
           </h3>
-          <p className="text-lg text-gray-600 leading-relaxed text-left">
+          <p className="text-lg text-gray-600 leading-relaxed text-left text-center">
             Unlike many love stories, this is a journey shaped by families and traditions.
              Reainy & Jinto were introduced through their families, who saw in them the perfect partners for one another.
               What started as an arranged match soon blossomed into mutual respect, understanding, and the promise of a lifelong partnership. 

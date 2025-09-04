@@ -17,17 +17,17 @@ const AboutSection = () => {
             <img
               src={bride}
               alt="Reainy"
-              className="w-full h-[400px] sm:h-[500px] lg:h-[600px] object-cover rounded-lg shadow-lg"
+              className="w-full h-auto sm:h-[500px] lg:h-[600px] object-cover  shadow-lg"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent rounded-lg"></div>
           </div>
         </div>
         
         {/* Content */}
-        <div className="w-full lg:w-1/2 flex flex-col justify-between h-[400px] sm:h-[500px] lg:h-[600px]">
+        <div className="w-full lg:w-1/2 flex flex-col justify-between h-auto sm:h-[500px] lg:h-[600px]">
           <div>
             <div className="flex items-center gap-3">
-              <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif text-gray-800">Reainy</h2>
+              <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif text-gray-800" style={{ fontFamily: 'Playfair Display, serif' }}>Reainy</h2>
               <span className="text-red-400 text-3xl">♡</span>
             </div>
             <p className="text-base sm:text-lg lg:text-xl text-gray-600 leading-relaxed mt-4">
@@ -43,12 +43,12 @@ const AboutSection = () => {
             <img
               src={bride1}
               alt="Reainy Detail 1"
-              className="w-24 h-24 sm:w-32 sm:h-32 object-cover rounded-lg shadow-md"
+              className="w-24 h-24 sm:w-32 sm:h-32 object-cover  shadow-md"
             />
             <img
               src={bride2}
               alt="Reainy Detail 2"
-              className="w-24 h-24 sm:w-32 sm:h-32 object-cover rounded-lg shadow-md"
+              className="w-24 h-24 sm:w-32 sm:h-32 object-cover shadow-md"
             />
           </div>
         </div>
@@ -62,17 +62,17 @@ const AboutSection = () => {
             <img
               src={groom}
               alt="Michael"
-              className="w-full h-[400px] sm:h-[500px] lg:h-[600px] object-cover rounded-lg shadow-lg"
+              className="w-full h-auto sm:h-[500px] lg:h-[600px] object-cover  shadow-lg"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent rounded-lg"></div>
           </div>
         </div>
         
         {/* Content */}
-        <div className="w-full lg:w-1/2 flex flex-col justify-between h-[400px] sm:h-[500px] lg:h-[600px]">
+        <div className="w-full lg:w-1/2 flex flex-col justify-between h-auto sm:h-[500px] lg:h-[600px]">
           <div>
             <div className="flex items-center gap-3">
-              <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif text-gray-800">Jinto</h2>
+              <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif text-gray-800" style={{ fontFamily: 'Playfair Display, serif' }}>Jinto</h2>
               <span className="text-red-400 text-3xl">♡</span>
             </div>
             <p className="text-base sm:text-lg lg:text-xl text-gray-600 leading-relaxed mt-4">
@@ -87,12 +87,12 @@ const AboutSection = () => {
             <img
               src={groom1}
               alt="Michael Detail 1"
-              className="w-24 h-24 sm:w-32 sm:h-32 object-cover rounded-lg shadow-md"
+              className="w-24 h-24 sm:w-32 sm:h-32 object-cover  shadow-md"
             />
             <img
               src={groom2}
               alt="Michael Detail 2"
-              className="w-24 h-24 sm:w-32 sm:h-32 object-cover rounded-lg shadow-md"
+              className="w-24 h-24 sm:w-32 sm:h-32 object-cover  shadow-md"
             />
           </div>
         </div>

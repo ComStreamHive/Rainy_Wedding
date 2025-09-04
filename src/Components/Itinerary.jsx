@@ -2,10 +2,10 @@ import React from 'react';
 
 const WeddingEvents = () => {
   return (
-    <div className="bg-gray-50 py-16 px-4">
+    <div id="itinerary" className="bg-gray-50 py-16 px-4">
       <div className="max-w-5xl mx-auto">
         {/* Title */}
-        <h1 className="text-5xl font-normal text-center text-black mb-20" style={{ fontFamily: 'serif' }}>
+        <h1 className="text-5xl font-normal text-center text-black mb-20" style={{ fontFamily: 'Playfair Display, serif' }}>
           When & Where
         </h1>
         
@@ -24,7 +24,7 @@ const WeddingEvents = () => {
             
             {/* Title */}
             <div className="mb-6">
-              <h3 className="text-xl font-normal text-black">Engagement</h3>
+              <h3 className="text-xl font-normal text-black" style={{ fontFamily: 'Playfair Display, serif' }}>Engagement</h3>
             </div>
             
             {/* Event Details */}
@@ -37,9 +37,15 @@ const WeddingEvents = () => {
             </div>
             
             {/* Location Button */}
-            <button className="bg-red-500 text-white px-6 py-2 rounded-full text-xs font-bold tracking-wider hover:bg-red-600 transition-colors">
-              LOCATION
-            </button>
+            <a
+              href="https://maps.app.goo.gl/5udddydDoUPTeU5p9"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-red-500 text-white px-6 py-4 sm:py-3 md:py-2 lg:py-2 xl:py-2 rounded-full text-xs font-bold tracking-wider hover:bg-red-600 transition-colors"
+            >
+                LOCATION
+            </a>
+
           </div>
 
           {/* Pre Wedding Party Card */}
@@ -55,7 +61,7 @@ const WeddingEvents = () => {
             
             {/* Title */}
             <div className="mb-6">
-              <h3 className="text-xl font-normal text-black">Pre Wedding Party</h3>
+              <h3 className="text-xl font-normal text-black" style={{ fontFamily: 'Playfair Display, serif' }}>Pre Wedding Party</h3>
             </div>
             
             {/* Event Details */}
@@ -94,9 +100,15 @@ const WeddingEvents = () => {
             </div>
             
             {/* Location Button */}
-            <button className="bg-red-500 text-white px-6 py-2 rounded-full text-xs font-bold tracking-wider hover:bg-red-600 transition-colors">
+            <a
+              href="https://maps.app.goo.gl/RK4M6w9hwSvpnedw9"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-red-500 text-white px-6 py-4 sm:py-3 md:py-2 lg:py-2 xl:py-2 rounded-full text-xs font-bold tracking-wider hover:bg-red-600 transition-colors"
+            >
               LOCATION
-            </button>
+            </a>
+
           </div>
 
         </div>
