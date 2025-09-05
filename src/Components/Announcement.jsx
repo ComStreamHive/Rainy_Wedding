@@ -30,7 +30,7 @@ const AnnouncementSection = () => {
         {/* Three Photo Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
           {/* Photo 1 */}
-          <div className="aspect-square bg-gray-200  overflow-hidden">
+          <div className="bg-gray-200 overflow-hidden md:mt-10">
             <img 
               src={img1} 
               alt="Wedding photo 1" 
@@ -39,7 +39,7 @@ const AnnouncementSection = () => {
           </div>
           
           {/* Photo 2 */}
-          <div className="aspect-square bg-gray-200  overflow-hidden">
+          <div className="bg-gray-200 overflow-hidden md:mb-10">
             <img 
               src={img2}
               alt="Wedding photo 2" 
@@ -48,7 +48,7 @@ const AnnouncementSection = () => {
           </div>
           
           {/* Photo 3 */}
-          <div className="aspect-square bg-gray-200 overflow-hidden">
+          <div className="bg-gray-200 overflow-hidden md:mt-10">
             <img 
               src={img3} 
               alt="Wedding photo 3" 

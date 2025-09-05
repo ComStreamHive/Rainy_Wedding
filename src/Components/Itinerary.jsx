@@ -1,4 +1,7 @@
 import React from 'react';
+import { CgRing } from "react-icons/cg";
+import { TbGlass } from "react-icons/tb";
+import { LuFlower } from "react-icons/lu";
 
 const WeddingEvents = () => {
   return (
@@ -15,11 +18,8 @@ const WeddingEvents = () => {
           {/* Engagement Card */}
           <div className="bg-white border-2 border-gray-200 rounded-lg p-6 text-center min-h-72 flex flex-col justify-between">
             {/* Icon in gray box */}
-            <div className="w-12 h-12 mx-auto mb-6 bg-gray-100 rounded flex items-center justify-center">
-              <svg className="w-5 h-5 text-red-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                <circle cx="12" cy="12" r="10"/>
-                <polyline points="12,6 12,12 16,14"/>
-              </svg>
+            <div className="w-12 h-12 mx-auto mb-6 bg-white-100 rounded flex items-center justify-center">
+              <CgRing className="w-8 h-7 text-red-500" />
             </div>
             
             {/* Title */}
@@ -51,12 +51,8 @@ const WeddingEvents = () => {
           {/* Pre Wedding Party Card */}
           <div className="bg-white border-2 border-gray-200 rounded-lg p-6 text-center min-h-72 flex flex-col justify-between">
             {/* Icon in gray box */}
-            <div className="w-12 h-12 mx-auto mb-6 bg-gray-100 rounded flex items-center justify-center">
-              <svg className="w-5 h-5 text-red-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                <path d="M5 12V7a7 7 0 1 1 14 0v5"/>
-                <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-7"/>
-                <path d="M9 12h6"/>
-              </svg>
+            <div className="w-12 h-12 mx-auto mb-6 bg-white-800 rounded flex items-center justify-center">
+              <TbGlass className="w-8 h-8 text-red-500" />
             </div>
             
             {/* Title */}
@@ -86,10 +82,8 @@ const WeddingEvents = () => {
           {/* Wedding Card */}
           <div className="bg-white border-2 border-gray-200 rounded-lg p-6 text-center min-h-72 flex flex-col justify-between">
             {/* Icon in gray box */}
-            <div className="w-12 h-12 mx-auto mb-6 bg-gray-100 rounded flex items-center justify-center">
-              <svg className="w-5 h-5 text-red-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
-              </svg>
+            <div className="w-12 h-12 mx-auto mb-6 bg-white-100 rounded flex items-center justify-center">
+              <LuFlower className="w-8 h-7 text-red-500" />
             </div>
             
             {/* Title */}
@@ -105,7 +99,7 @@ const WeddingEvents = () => {
                 Ambunadu
               </p>
             </div>
-            
+              
             {/* Location Button */}
             <a
               href="https://maps.app.goo.gl/RK4M6w9hwSvpnedw9"

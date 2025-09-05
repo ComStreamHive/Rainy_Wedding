@@ -8,10 +8,9 @@ import image4 from '../assets/4.webp';
 import image5 from '../assets/5.webp';
 import image6 from '../assets/6.webp';
 
-
 const Gallery = () => {
   // List of images to display
-  const images = [image1, image2, image3, image4, image5, image6, ];
+  const images = [image1, image2, image3, image4, image5, image6];
 
   return (
     <div className="py-8 px-4 bg-gray-100">
@@ -22,7 +21,7 @@ const Gallery = () => {
         </h2>
 
         {/* Gallery Grid */}
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-7 gap-3 ">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3 justify-items-center">
           {images.map((src, index) => (
             <div key={index} className="relative w-full">
               <img

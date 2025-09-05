@@ -43,12 +43,12 @@ const AboutSection = () => {
             <img
               src={bride1}
               alt="Reainy Detail 1"
-              className="w-24 h-24 sm:w-32 sm:h-32 object-cover  shadow-md"
+              className="w-24 h-26 sm:w-32 sm:h-32 lg:w-32 lg:h-36 object-cover  shadow-md"
             />
             <img
               src={bride2}
               alt="Reainy Detail 2"
-              className="w-24 h-24 sm:w-32 sm:h-32 object-cover shadow-md"
+              className="w-24 h-24 sm:w-32 sm:h-32 lg:w-32 lg:h-36 object-cover shadow-md"
             />
           </div>
         </div>
@@ -87,12 +87,12 @@ const AboutSection = () => {
             <img
               src={groom1}
               alt="Michael Detail 1"
-              className="w-24 h-24 sm:w-32 sm:h-32 object-cover  shadow-md"
+              className="w-24 h-24 sm:w-32 sm:h-32 lg:w-32 lg:h-36 object-cover  shadow-md"
             />
             <img
               src={groom2}
               alt="Michael Detail 2"
-              className="w-24 h-24 sm:w-32 sm:h-32 object-cover  shadow-md"
+              className="w-24 h-24 sm:w-32 sm:h-32 lg:w-32 lg:h-36 object-cover  shadow-md"
             />
           </div>
         </div>
